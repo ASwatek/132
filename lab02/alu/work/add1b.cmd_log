@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/CSSE132/1819a-csse132-swatekaj/lab02/alu/work/add1b.xst" -ofn "C:/CSSE132/1819a-csse132-swatekaj/lab02/alu/work/add1b.syr" 
+sch2sym -intstyle ise -family spartan3e -refsym add1b C:/CSSE132/1819a-csse132-swatekaj/lab02/alu/add1b.sch C:/CSSE132/1819a-csse132-swatekaj/lab02/alu/add1b.sym 
