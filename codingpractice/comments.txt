@@ -1,0 +1,29 @@
+Grader comments on codingpractice
+===========================================
+general comments:
+Nice!  You are the only one who put their name in the README file.  :)
+
+
+Parts 1,2 (part1.c):
+------------------------------
+
+transposeUpper:
+transposeLower:
+Good idea for outrageous numbers, but you can just use remainder operator:
+c = (c - 'a' + num) % 26 + 'a';
+
+transposeString:
+you need to null terminate your new string, ret.
+
+main:
+LOL, you should write more tests!  It would have exposed some errors in transposeUpper/lower.
+
+Part 3:
+------------------------------
+
+Makefile Rule for "process":
+
+process.c:
+When you commit code with tons of commented out stuff, please either separate the comments into a block or remove the old code before committing.
+Good work!
+

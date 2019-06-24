@@ -1,0 +1,48 @@
+PRACTICE SESSION DETAILS:
+---------------------------------------
+
+
+PUT YOUR NAME HERE:
+Austin Swatek
+
+
+For this part of the in-class exercise, you must complete the following tasks
+alone, without collaboration.  You may use any materials provided by your
+instructor, the code in your repository and the course web site, but you
+may not use other web sites or help from others.
+
+1. Finish the code in part1.c.  Comments in that file will tell you what to do.
+
+2. Create a program from scratch with the following specifications:
+
+   * Its file name must be "process.c"
+   * Add a rule for it to the Makefile to create "process" (the executable)
+   * When run, it will read the text file specified on the command line and:
+     1. Transpose it by the number passed to it 
+        (HINT: copy your transpose functions into this file)
+     2. print it to the screen (standard out)
+     
+    For example:
+      pi@my-pi:$ cat test1.txt
+      A big Fox.
+      pi@my-pi:$ ./process test1.txt 2 > test1.decoded
+       # file "test1.decoded" should contain "C dki Hqz."
+      pi@my-pi:$ ./process test1.decoded 24
+      A big Fox.
+      pi@my-pi:$
+
+   * we're providing you with two files you can use to test:
+      test1.txt
+      test2.txt (try with 6)
+
+3. When you've got part 2 finished and you've tested it, use process on
+   part3.txt with the number 12.  Follow the instructions you get in the
+   decoded file.  
+
+     ./process part3.txt 12
+
+   --------------------------------------------------
+
+When you're finished, be sure to add your code to your repo, then commit all your changes.
+Also put your name on this document and give it to your instructor.
+
